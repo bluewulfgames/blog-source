@@ -11,7 +11,7 @@ jobs:
      - name: Checkout
        uses: actions/checkout@v1
      - name: Checkout submodules
-       run: git submodule sync --recursive
+       run: git submodule update --init --recursive
      - name: Get Hugo
        uses: peaceiris/actions-hugo@10f36c7c9133c2fe4dba9a431e838d7c71980b13
        with:
