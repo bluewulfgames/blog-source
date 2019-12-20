@@ -1,0 +1,19 @@
+baseURL = "https://bluewulfgames.github.io/"
+languageCode = "en-us"
+title = "Blue Wulf Games"
+
+theme = "newsroom"
+
+author = "Blue Wulf Games Team"
+copyright = "Copyright © 2019, Blue Wulf Games and the Hugo Authors; all rights reserved."
+canonifyurls = true
+paginate = 5
+# Enable syntax highlighting
+# comment or delete the following lines 11 ~ 14
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses=true
+pygmentsOptions = "linenos=table"
+
+#[params]
+#  twitter =
