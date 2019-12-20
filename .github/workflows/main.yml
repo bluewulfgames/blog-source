@@ -16,6 +16,7 @@ jobs:
        uses: peaceiris/actions-hugo@10f36c7c9133c2fe4dba9a431e838d7c71980b13
        with:
          hugo-version: '0.61.0'
+         extended: true
      - name: Build Site
        run: hugo --minify
      - name: Deploy
